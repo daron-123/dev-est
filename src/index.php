@@ -1,6 +1,4 @@
 <?php
 
-echo "hello world";
-echo 'test1';
-
-echo "test 2 !!!!";
+require_once "Math.php";
+echo \Ylamalem\DevEst\Math::add(3,4);
