@@ -36,6 +36,4 @@ jobs:
           author_name: "Integration workflow"
           icon_url: "https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/github-512.png"
           fields: repo,message,commit,author,action,eventName,ref,workflow
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }} # required
         if: always() # Pick up events even if the job fails or is canceled.
